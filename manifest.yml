@@ -1,0 +1,11 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Blog22
+  host: Blog22
+  disk_quota: 1024M
+  services:
+  - BlogA-MonitoringAndAnalytics
+  - Blog22-personality_insights
